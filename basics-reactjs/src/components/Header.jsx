@@ -1,11 +1,12 @@
 import styles from './Header.module.css'
 
-import logo from '../assets/pingostark-profile.jpg'
+import ninjaLogo from '../assets/ninjaBlade.png'
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <img src={logo} alt="pinguzada da massa" />
+      <img src={ninjaLogo} alt="pinguzada da massa"/>
+      <h1>ComuniVerso</h1>
     </header>
   );
 }

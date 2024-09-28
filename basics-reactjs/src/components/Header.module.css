@@ -6,7 +6,12 @@
   
 }
 
+.header h1 {
+  margin-left: 10px;
+  align-self: center;
+  font-size: 1.6rem;
+}
+
 .header img {
- height: 15rem;
- border-radius: 2rem;
+ height: 4rem;
 }
